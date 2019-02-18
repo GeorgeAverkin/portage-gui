@@ -1,0 +1,48 @@
+{
+  "name": "porteus",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://192.168.122.57:8888",
+  "dependencies": {
+    "@devexpress/dx-react-core": "^1.10.0",
+    "@devexpress/dx-react-grid": "^1.10.0",
+    "@devexpress/dx-react-grid-material-ui": "^1.10.0",
+    "@material-ui/core": "^3.9.1",
+    "@material-ui/icons": "^3.0.2",
+    "@types/classnames": "^2.2.7",
+    "@types/react-dom": "^16.8.0",
+    "@types/react-redux": "^7.0.1",
+    "@types/react-router": "^4.4.3",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux-logger": "^3.0.6",
+    "classnames": "^2.2.6",
+    "connected-react-router": "^6.2.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.0.0",
+    "redux-thunk": "^2.3.0",
+    "typeface-roboto": "^0.0.54",
+    "typesafe-actions": "^3.0.0",
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
